@@ -260,7 +260,9 @@ ul {
   padding-top: 0px;
   display: grid;
   row-gap: 1.5rem;
-  height: 160px;
+  height: 110px;
+  margin-top: 10px;
+ 
 }
 
 .color-form {
@@ -325,7 +327,7 @@ input[type='color'] {
   min-height: calc(100vh - 160px);
   display: grid;
   
-  grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(85px, 1fr));
 }
 .color {
